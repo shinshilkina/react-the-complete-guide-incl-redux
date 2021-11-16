@@ -23,12 +23,13 @@ function App() {
     },
   ]
   const expensesElements = expenses.map(element => {
-    if (!element.title || !element.amount || !element.date) {
+    if (!element.title || !element.amount || !element.date || !element.id) {
       return;
     }
     return (
       <div>
       <ExpenseItem 
+        key={element.id}
         title={element.title}
         amount={element.amount}
         date={element.date}
