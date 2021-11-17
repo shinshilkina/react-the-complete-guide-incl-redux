@@ -1,6 +1,6 @@
 # react-the-complete-guide-incl-redux
 It's a repo for practice on the course  
-current repo for the firts project about tracking expemses
+current repo for the first project about tracking expenses
 https://www.udemy.com/course/react-the-complete-guide-incl-redux/
 
 # Getting Started with Create React App
