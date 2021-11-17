@@ -15,7 +15,7 @@ function Expenses(props) {
       />
     )
   })
-  return <div class="expenses"> { expensesElements } </div>;
+  return <div className="expenses"> { expensesElements } </div>;
 }
 
 export default Expenses;
