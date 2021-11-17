@@ -1,5 +1,5 @@
 const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 
-  'July', 'Aug', 'Sept', 'Oct', 'Oct', 'Dec'];
+  'July', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec'];
 
 const DEFAULT_EXPENSES = [
   {
