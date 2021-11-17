@@ -3,7 +3,6 @@ import ExpenseDate from '../ExpenseDate/index';
 import './index.css';
 
 function ExpenseItem(props) {
-  
   return (
     <Card className="expense-item">
       <ExpenseDate date={ props.date } />
