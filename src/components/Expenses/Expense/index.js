@@ -1,4 +1,5 @@
 import ExpenseItem from '../ExpenseItem/index';
+import ExpensesFilter from '../ExpensesFilter';
 import './index.css';
 
 function Expenses(props) {
@@ -15,7 +16,18 @@ function Expenses(props) {
       />
     )
   })
-  return <div className="expenses"> { expensesElements } </div>;
+
+  const onChangeFilterHandler = data => {
+    console.log('Changed filter! Data ', data);
+  };
+
+  return <div className="expenses">
+    <ExpensesFilter 
+      elements={ props.elements }
+      onChangeFilter={ onChangeFilterHandler }
+    />
+    { expensesElements } 
+  </div>;
 }
 
 export default Expenses;
